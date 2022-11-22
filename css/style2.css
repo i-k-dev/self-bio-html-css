@@ -1,0 +1,89 @@
+/*
+This is how you comment in a CSS stylesheet file, open with forward slash and asterisk, and close with asterisk and then forward slash.
+*/
+/*
+First external CSS stylesheet
+*/
+
+body{
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333; background: #efeee7;
+    margin: 0; padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: lightblue;
+}
+
+h1{
+    color: #eee; font-size: 28px;
+    padding: 2; margin: 2;
+}
+
+h2{
+    text-align: left;
+    font-size: 24px;
+}
+
+ul {
+    text-align: right;
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+    font-size: 40px;
+    display: inline;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    color: #d21034;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float:left;
+}
+
+#bio-image {
+    width: 200px; height: 200px; margin-right: 20px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#item-1 {
+    background-color: #e0115f;
+}
+  
+#item-2 {
+    background-color: #0000ff;
+}
+  
+#item-3 {
+    background-color: #999900;
+}
+  
+#image-3 {
+    display: block;
+}
+
+
